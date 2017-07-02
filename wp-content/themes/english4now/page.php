@@ -458,19 +458,97 @@ get_header(); ?>
 
 <div class="container-fluid">
     <div id="testimonials-carousel" class="owl-carousel owl-theme">
+    <div class="item">
+        <div class="wrap-testimonial clearfix">
+            <div class="wrap-photo-client">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/review/tatjanaKalcedanova.jpg" class="photo-client img-responsive img-circle" width="170" height="170" alt="Татьяна Калцеданова"/>
+            </div>
+            <div class="wrap-text-testimonial">
+                <blockquote class="text-testimonial"><p><img src="<?php echo get_template_directory_uri(); ?>/img/skobki.png" width="62px" height="53px" align="left" />Большое спасибо администраторам и преподавателям школы English4now за возможность заниматься английским языком по Skype ,не выходя из дома, в любое  время , в любой день недели , что с моей загруженностью на работе  и отсутствием свободного времени  - огромное счастье.
+                        Благодаря профессионализму моего преподавателя Анастасии, я не только начала лучше разбираться в грамматике английского языка, но и  улучшила свое произношение.
+                        Такой формат обучения, стал для меня одним из лучших, так как занятия индивидуальны, что позволяет сразу разобрать  непонятные места и снять языковой барьер.</p></blockquote>
+                <p class="name-client">Татьяна Калцеданова</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="wrap-testimonial clearfix">
+            <div class="wrap-photo-client">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/review/sadovnikova.jpg" class="photo-client img-responsive img-circle" width="170" height="170" alt="Юлия Садовникова"/>
+            </div>
+            <div class="wrap-text-testimonial">
+                <blockquote class="text-testimonial"><p><img src="<?php echo get_template_directory_uri(); ?>/img/skobki.png" width="62px" height="53px" align="left" />
+                        Большое человеческое спасибо онлайн школе English4now! За сильных и адекватных преподавателей и возможность заниматься по личному расписанию. В свое время я отказалась от оффлайн-репетитора в пользу онлайн-занятий и еще ни разу не пожалела. Главное - правильно выбрать школу и своего онлайн-наставника. Поверьте, это самое главное! Остальное пойдет как по маслу. Оксана (мой преподаватель из English4now), всегда (!) указывает на ошибки как грамматические, так и на произношение, индивидуально строит урок (видит, где её ученик «плавает» и не дотягивает, и исправляет это!). Плюс ко всему она чертовски обаятельна, и заражает любовью к английскому языку! English4now, не меняйтесь, пожалуйста! И берегите своих профессионалов! Ещё раз спасибо!
+
+                </p></blockquote>
+                <p class="name-client">Юлия Садовникова</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="wrap-testimonial clearfix">
+            <div class="wrap-photo-client">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/review/irinaErmolaeva.jpg" class="photo-client img-responsive img-circle" width="170" height="170" alt="Ирина Ермолаева"/>
+            </div>
+            <div class="wrap-text-testimonial">
+                <blockquote class="text-testimonial"><p><img src="<?php echo get_template_directory_uri(); ?>/img/skobki.png" width="62px" height="53px" align="left" />
+                        Свои занятия по изучению английского языка по скайпу я начала в начале марта 2017г, стоит заметить не так давно. На сегодняшний день идет третий месяц моих занятий-не так много, но уже и не мало. Начало положено. Хочется отметить, что занятия по скайпу, конечно, не заменяют общения в живую, но отлично экономят время, которого в больших городах очень не хватает.
+                        Основная моя цель-свободно говорить на английском языке, читать, переводить научные статьи.
+                        Немного о преимуществах изучения английского языка по скайпу. Лично для меня это-возможность составлять свой индивидуальный график, возможность быть всегда на связи-в любое время дня, не тратить время на дорогу-до и после занятия, и, между прочим, также экономить материальные средства, ведь урок в "живую"-стоит гораздо дороже, ну и конечно индивидуальный подход-занятия проходят "один на один", всегда есть возможность уделить время какой-то конкретной теме, где есть пробелы и недопонимания.
+                        Конкретно о занятиях с Юлией - интересно, грамматно, доступно, позитивно,  легко-непринужденно. Юлия использует в своей практике все возможное-картинки, видео, аудио-материалы, книги. Практически на каждом уроке мы ведем диалоги на английском языке на сводобные темы. Всегда есть домашние задания, которых постоянно хочется все больше и больше.
+                        Занятия просто супер, планирую их продолжать. Появилась надежда, наконец, заговорить на английском-не заморачиваться в дальнейшем с общением в других странах, свободно читать на английском в интернете, переводить нужные статьи)))
+                    </p></blockquote>
+                <p class="name-client">Ирина Ермолаева</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="wrap-testimonial clearfix">
+            <div class="wrap-photo-client">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/review/lalaManasan.jpg" class="photo-client img-responsive img-circle" width="170" height="170" alt="Лала Манасян"/>
+            </div>
+            <div class="wrap-text-testimonial">
+                <blockquote class="text-testimonial"><p><img src="<?php echo get_template_directory_uri(); ?>/img/skobki.png" width="62px" height="53px" align="left" />
+                        Добрый день! Мне очень нравится заниматься с преподавателем Оксаной, на каждом занятии узнаю много нового. Умеет мотивировать, подбирает интересные темы для обсуждения, использует хорошие учебники и различные статьи. Все материалы подобраны для моего уровня знаний, интересов. Занятие обычно состоит из диалогов, пересказов прочитанных статей, их обсуждения, изучения новых слов и фраз. Спасибо!
+                    </p></blockquote>
+                <p class="name-client">Лала Манасян</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="wrap-testimonial clearfix">
+            <div class="wrap-photo-client">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/review/andreyKravchenko.jpg" class="photo-client img-responsive img-circle" width="170" height="170" alt="Андрей Кравченко"/>
+            </div>
+            <div class="wrap-text-testimonial">
+                <blockquote class="text-testimonial"><p><img src="<?php echo get_template_directory_uri(); ?>/img/skobki.png" width="62px" height="53px" align="left" />
+                        Оксана помогла мне расширить словарный запас. Я стал быстрее, чем раньше формировать предложения.
+                        Я читаю адаптированные тексты вообще без нужды смотреть в словарь. Более сложные тексты я понимаю, догадываясь по смыслу,
+                        т.к.потихоньку набиваю руку на переводах. Я довольно легко и быстро могу переводить фразу с русского на английский,
+                        если конечно в них нет каких-то редких слов. Если мне дать достаточно времени, то я грамматически правильно составяю
+                        предложения. Либо, если я допустил ошибку, я исправлюсь, либо пойму в чем ошибка, если меня исправят. Русскоязычных преподавателей и
+                        носителей я понимаю практически всегда без просьбы повторить предложение.
+                    </p></blockquote>
+                <p class="name-client">Андрей Кравченко</p>
+            </div>
+        </div>
+    </div>
 
 	<div class="item">
-                <div class="wrap-testimonial clearfix">
-                    <div class="wrap-photo-client">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/review/ekaterinagerber.jpg" class="photo-client img-responsive img-circle" width="170" height="170" alt="Екатерина Гербер"/>
-                    </div>
-                    <div class="wrap-text-testimonial">
-                        <blockquote class="text-testimonial"><p><img src="<?php echo get_template_directory_uri(); ?>/img/skobki.png" width="62px" height="53px" align="left" />Со школой English4now познакомилась полгода назад. Сразу понравилось внимательное отношение ко мне, как к клиенту. Со мной быстро связались, учитывая мои цели и интересы, подобрали для меня преподавателя. Я занимаюсь с Ириной Макленнан и очень довольна уроками, где я, само собой, решаю грамматические задачи,  узнаю новые полезные слова, выполняю интересные упражнения. Но самое важное и увлекательное – это полное погружение в английский язык. В течение всего занятия я слышу только английскую речь и говорю только на английском. Такие систематические занятия помогли мне снять языковой барьер, сейчас я намного свободнее выражаю свои мысли, понимаю и общаюсь с носителями английского языка.</p></blockquote>
-                        <p class="name-client">Екатерина Гербер</p>
-                        
-                    </div>
-                </div>
+        <div class="wrap-testimonial clearfix">
+            <div class="wrap-photo-client">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/review/ekaterinagerber.jpg" class="photo-client img-responsive img-circle" width="170" height="170" alt="Екатерина Гербер"/>
             </div>
+            <div class="wrap-text-testimonial">
+                <blockquote class="text-testimonial"><p><img src="<?php echo get_template_directory_uri(); ?>/img/skobki.png" width="62px" height="53px" align="left" />Со школой English4now познакомилась полгода назад. Сразу понравилось внимательное отношение ко мне, как к клиенту. Со мной быстро связались, учитывая мои цели и интересы, подобрали для меня преподавателя. Я занимаюсь с Ириной Макленнан и очень довольна уроками, где я, само собой, решаю грамматические задачи,  узнаю новые полезные слова, выполняю интересные упражнения. Но самое важное и увлекательное – это полное погружение в английский язык. В течение всего занятия я слышу только английскую речь и говорю только на английском. Такие систематические занятия помогли мне снять языковой барьер, сейчас я намного свободнее выражаю свои мысли, понимаю и общаюсь с носителями английского языка.</p></blockquote>
+                <p class="name-client">Екатерина Гербер</p>
+            </div>
+        </div>
+    </div>
 
 <div class="item">
                 <div class="wrap-testimonial clearfix">
@@ -571,18 +649,6 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="wrap-testimonial clearfix">
-                    <div class="wrap-photo-client">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/review/sergey-anisimov.jpg" class="photo-client img-responsive img-circle" width="170" height="170" alt="Сергей Анисимов"/>
-                    </div>
-                    <div class="wrap-text-testimonial">
-                        <blockquote class="text-testimonial"><p><img src="<?php echo get_template_directory_uri(); ?>/img/skobki.png" width="62px" height="53px" align="left" />Выражаю благодарность моему преподавателю английского языка Яне. Работая с ней, я добился значительного прогресса, теперь я могу говорить на бытовые темы и понимаю речь носителей языка. В уроках мне особенно нравиться сочетание непринужденной атмосферы и эффективности, это не привычная школьная зубрежка, а скорее приятные беседы и интересные задания, они приносят результат.</p></blockquote>
-                        <p class="name-client">Сергей Анисимов</p>
-                        
-                    </div>
-                </div>
-            </div>
 
             <div class="item">
                 <div class="wrap-testimonial clearfix">
@@ -608,30 +674,8 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="wrap-testimonial clearfix">
-                    <div class="wrap-photo-client">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/review/marina-kovaleva.jpg" class="photo-client img-responsive img-circle" width="170" height="170" alt="Марина Ковалева"/>
-                    </div>
-                    <div class="wrap-text-testimonial">
-                        <blockquote class="text-testimonial"><p><img src="<?php echo get_template_directory_uri(); ?>/img/skobki.png" width="62px" height="53px" align="left" />Впечатления самые хорошие, занятия построены интересно, уже через 3 месяца заметила, как вырос мой уровень (до этого существовала серьезная проблема - не могла разговориться), шаг за шагом проблема решается, начинаю говорить и говорить быстрее с каждым разом.</p></blockquote>
-                        <p class="name-client">Марина Ковалева</p>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="wrap-testimonial clearfix">
-                    <div class="wrap-photo-client">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/review/alexey-krainik.jpg" class="photo-client img-responsive img-circle" width="170" height="170" alt="Алексей Крайник"/>
-                    </div>
-                    <div class="wrap-text-testimonial">
-                        <blockquote class="text-testimonial"><p><img src="<?php echo get_template_directory_uri(); ?>/img/skobki.png" width="62px" height="53px" align="left" />Очень хорошая школа. Обучался почти год, очень хороший преподаватель был. Честно говоря не ожидал что так хорошо ко мне отнесутся. Перед началом обучения мне все подробно рассказали, любезно ответили на все мои вопросы. Обучился курсу. Так как был полный 0, то сейчас уже начальный уровень.</p></blockquote>
-                        <p class="name-client">Алексей Крайник</p>
-                        
-                    </div>
-                </div>
-            </div>
+
+
             <div class="item">
                 <div class="wrap-testimonial clearfix">
                     <div class="wrap-photo-client">
@@ -643,17 +687,7 @@ get_header(); ?>
                         </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="wrap-testimonial clearfix">
-                    <div class="wrap-photo-client">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/review/igor.jpg" class="photo-client img-responsive img-circle" width="170" height="170" alt="Игорь"/>
-                    </div>
-                    <div class="wrap-text-testimonial">
-                        <blockquote class="text-testimonial"><p><img src="<?php echo get_template_directory_uri(); ?>/img/skobki.png" width="62px" height="53px" align="left" />Отличная школа, занимаюсь уже пол года. Отличный преподавательский состав, замечательное отношение к студентам, новые технологии и прогрессивное обучение)</p></blockquote>
-                        <p class="name-client">Игорь</p>
-                    </div>
-                </div>
-            </div>
+
 
     </div>
 </div>
