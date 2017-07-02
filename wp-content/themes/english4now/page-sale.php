@@ -44,11 +44,24 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> -</div>
                             <div class="sum-lesson"><span>Сумма</span> 450р.</div>
                             <div class="get-lesson">
-
-                                <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="450" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 1 занятие" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="1 урок с русскоязычным преподавателем">
+                                    <input type="hidden" name="sum" value="450" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
                                 </form>
-
+                                <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="450" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 1 занятие" type="hidden" />
+                                    <button type="submit">Оплатить (другие способы)</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -62,8 +75,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> -</div>
                             <div class="sum-lesson"><span>Сумма</span> 900р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="2 урока с русскоязычным преподавателем">
+                                    <input type="hidden" name="sum" value="900" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="900" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 2 занятия" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
@@ -78,8 +106,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> -</div>
                             <div class="sum-lesson"><span>Сумма</span> 1 800р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="4 урока с русскоязычным преподавателем">
+                                    <input type="hidden" name="sum" value="1800" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="1800" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 4 занятия" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
@@ -94,8 +137,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> 3%</div>
                             <div class="sum-lesson"><span>Сумма</span> 3 492р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="8 уроков с русскоязычным преподавателем">
+                                    <input type="hidden" name="sum" value="3492" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="3492" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 8 занятий" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
@@ -110,8 +168,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> 5%</div>
                             <div class="sum-lesson"><span>Сумма</span> 5 130р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="12 уроков с русскоязычным преподавателем">
+                                    <input type="hidden" name="sum" value="5130" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="5130" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 12 занятий" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
@@ -126,8 +199,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> 8%</div>
                             <div class="sum-lesson"><span>Сумма</span> 9 936р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="24 уроков с русскоязычным преподавателем">
+                                    <input type="hidden" name="sum" value="9936" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="9936" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 24 занятия" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
@@ -179,9 +267,24 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> -</div>
                             <div class="sum-lesson"><span>Сумма</span> 550р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="1 урок - подготовка к экзаменам">
+                                    <input type="hidden" name="sum" value="550" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
 
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="550" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 1 занятие" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
 
                             </div>
@@ -197,8 +300,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> -</div>
                             <div class="sum-lesson"><span>Сумма</span> 1100р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="2 урока - подготовка к экзаменам">
+                                    <input type="hidden" name="sum" value="1100" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="1100" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 2 занятия" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
@@ -213,8 +331,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> -</div>
                             <div class="sum-lesson"><span>Сумма</span> 2 200р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="4 урока - подготовка к экзаменам">
+                                    <input type="hidden" name="sum" value="2200" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="2200" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 4 занятия" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
@@ -229,8 +362,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> 3%</div>
                             <div class="sum-lesson"><span>Сумма</span> 4 268р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="8 уроков - подготовка к экзаменам">
+                                    <input type="hidden" name="sum" value="4268" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="4268" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 8 занятий" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
@@ -245,8 +393,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> 5%</div>
                             <div class="sum-lesson"><span>Сумма</span> 6 270р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="12 уроков - подготовка к экзаменам">
+                                    <input type="hidden" name="sum" value="6270" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="6270" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 12 занятий" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
@@ -261,8 +424,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> 8%</div>
                             <div class="sum-lesson"><span>Сумма</span> 12 144р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="24 урока - подготовка к экзаменам">
+                                    <input type="hidden" name="sum" value="12144" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="12144" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 24 занятия" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
@@ -315,8 +493,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> -</div>
                             <div class="sum-lesson"><span>Сумма</span> 950р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="1 урока с носителем языка">
+                                    <input type="hidden" name="sum" value="950" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="950" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 1 занятие" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
@@ -331,8 +524,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> -</div>
                             <div class="sum-lesson"><span>Сумма</span> 1900р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="2 урока с носителем языка">
+                                    <input type="hidden" name="sum" value="1900" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="1900" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 2 занятия" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
@@ -347,8 +555,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> -</div>
                             <div class="sum-lesson"><span>Сумма</span> 3 800р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="4 урока с носителем языка">
+                                    <input type="hidden" name="sum" value="3800" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="3800" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 4 занятия" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
@@ -363,8 +586,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> 3%</div>
                             <div class="sum-lesson"><span>Сумма</span> 7 372р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="8 уроков с носителем языка">
+                                    <input type="hidden" name="sum" value="7372" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="7372" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 8 занятий" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
@@ -379,8 +617,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> 5%</div>
                             <div class="sum-lesson"><span>Сумма</span> 10 830р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="12 уроков с носителем языка">
+                                    <input type="hidden" name="sum" value="10830" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="10830" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 12 занятий" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
@@ -395,8 +648,23 @@ get_header(); ?>
                             <div class="sale-lesson"><span>Скидка</span> 8%</div>
                             <div class="sum-lesson"><span>Сумма</span> 20 976р.</div>
                             <div class="get-lesson">
+                                <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                    <input type="hidden" name="receiver" value="410012414659999">
+                                    <input type="hidden" name="formcomment" value="English4now">
+                                    <input type="hidden" name="short-dest" value="оплата обучения">
+                                    <input type="hidden" name="label" value="$order_id">
+                                    <input type="hidden" name="quickpay-form" value="small">
+                                    <input type="hidden" name="targets" value="24 уроков с носителем языка">
+                                    <input type="hidden" name="sum" value="20976" data-type="number">
+                                    <input type="hidden" name="need-fio" value="true">
+                                    <input type="hidden" name="need-email" value="true">
+                                    <input type="hidden" name="need-phone" value="false">
+                                    <input type="hidden" name="need-address" value="false">
+                                    <label><input type="radio" hidden checked name="paymentType" value="AC"></label>
+                                    <button type="submit">Оплатить картой</button>
+                                </form>
                                 <form id="payment" action="https://sci.interkassa.com/" enctype="utf-8" method="post" name="payment" class="btn-red"><input name="ik_co_id" value="540499a2bf4efc4546a1877e" type="hidden" /> <input name="ik_pm_no" value="4233" type="hidden" /> <input name="ik_am" value="20976" type="hidden" /> <input name="ik_cur" value="RUB" type="hidden" /> <input name="ik_desc" value="Оплата за 24 занятия" type="hidden" />
-                                    <button type="submit">оплатить</button>
+                                    <button type="submit">Оплатить (другие способы)</button>
                                 </form>
                             </div>
                         </div>
