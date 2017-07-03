@@ -54,8 +54,8 @@
 <header class="main-header">
     <div class="header-top">
         <ul class="clearfix">
-            <li><a href="#"><i class="fa fa-envelope"></i> info@english4now.com</a></li>
-            <li class="skype-contact"><a href="#"><i class="fa fa-skype"></i> english4now.com</a></li>
+            <li><a href="mailto:info@english4now.com"><i class="fa fa-envelope"></i> info@english4now.com</a></li>
+            <li class="skype-contact"><i class="fa fa-skype"></i> english4now.com</li>
             <li class="recall-contact"><a href="#" data-toggle="modal" data-target="#order-call">Перезвоните мне</a></li>
             <li class="phone-contact"><i class="fa fa-phone-square"></i> +7(499)-348-13-28</li>
         </ul>
