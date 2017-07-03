@@ -134,7 +134,7 @@
 <!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/jquery-imagefill.js"></script>-->
     <script src="<?php echo get_template_directory_uri(); ?>/js/npm.js"></script>
 <!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/blog.js"></script>-->
-    <script src="<?php echo get_template_directory_uri(); ?>/fancybox/jquery.fancybox.js"></script>
+<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/fancybox/jquery.fancybox.js"></script>-->
        
     
        

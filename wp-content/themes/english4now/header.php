@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/payment.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/teachers.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/contacts.css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/fancybox/jquery.fancybox.css" />
+<!--    <link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/fancybox/jquery.fancybox.css" />-->
 		<!-- Important Owl stylesheet -->
 <!--	<link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/css/owl.carousel.css">-->
 	<!-- Default Theme -->
