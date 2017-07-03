@@ -236,9 +236,15 @@ nav .dropdown .dropdown-menu {
       background: none;
       border: none; }
       .form-free-lesson .wrapper-form .header-form {
+        font-size: 14px;
         color: white;
-        font-weight: 400; }
+        font-weight: 400;
+        margin-bottom: 10px; }
         .form-free-lesson .wrapper-form .header-form span {
+          display: inline-block;
+          color: #3ab0e2;
+          font-size: 14px;
+          text-transform: none;
           font-weight: 400; }
       .form-free-lesson .wrapper-form input {
         padding: 10px;
