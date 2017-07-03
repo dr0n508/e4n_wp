@@ -29,13 +29,13 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/blog.css" />
+<!--	<link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/css/blog.css" />-->
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/styles.css?ver=3" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/courses.css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/single-blog.css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/payment.css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/teachers.css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/contacts.css" />
+<!--    <link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/css/courses.css" />-->
+<!--    <link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/css/single-blog.css" />-->
+<!--    <link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/css/payment.css" />-->
+<!--    <link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/css/teachers.css" />-->
+<!--    <link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/css/contacts.css" />-->
 <!--    <link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/fancybox/jquery.fancybox.css" />-->
 		<!-- Important Owl stylesheet -->
 <!--	<link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/css/owl.carousel.css">-->

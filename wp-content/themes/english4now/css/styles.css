@@ -1,4 +1,504 @@
 @charset "UTF-8";
+.blog {
+  padding: 15px 0 50px;
+  background: #edeff2; }
+
+.wrapper-search .btn-primary {
+  background-color: #db5a4a;
+  border: none;
+  border-bottom: solid 4px #bf3928;
+  outline: none; }
+.wrapper-search .form-control {
+  border: 2px solid #e5e7e9;
+  box-shadow: none; }
+
+.categories .wrapper-categories {
+  margin: 10px 0 20px;
+  text-align: center; }
+  .categories .wrapper-categories ul {
+    margin: 10px 0;
+    border-radius: 5px; }
+  .categories .wrapper-categories li {
+    display: inline-block; }
+    .categories .wrapper-categories li:last-child {
+      border-right: none; }
+    .categories .wrapper-categories li:first-child {
+      border-left: none; }
+    .categories .wrapper-categories li a {
+      color: #000000;
+      padding: 15px;
+      display: block;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600; }
+      .categories .wrapper-categories li a:hover {
+        text-decoration: none;
+        color: #bf3928;
+        background: #C9D0DA; }
+
+.item .wrapper-item {
+  margin-bottom: 25px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
+  .item .wrapper-item .wrap-img {
+    overflow: hidden;
+    border-bottom: solid 2px #e96656;
+    height: 200px;
+    width: 100%;
+    line-height: 200px; }
+.item img {
+  width: 100%;
+  height: auto; }
+.item .wrapper-post .header-article {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 22px;
+  border-bottom: 1px dotted gray;
+  padding: 0 10px 10px 10px; }
+  .item .wrapper-post .header-article a {
+    color: #444;
+    text-decoration: none; }
+    .item .wrapper-post .header-article a:hover {
+      color: #e96656; }
+.item .wrapper-post .date-post {
+  color: #999;
+  font-size: 12px;
+  margin: 10px; }
+  .item .wrapper-post .date-post a {
+    color: #000000; }
+.item .wrapper-post .tag a {
+  padding: 5px 10px;
+  color: #8c9560;
+  font-size: 12px; }
+
+.pagination-centered {
+  text-align: center; }
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background-color: #e96656;
+  border-color: #e96656; }
+
+.pagination > li > a, .pagination > li > span, .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+  color: #e96656; }
+
+/************************Responsive***************** */
+/*************************************************** */
+@media only screen and (max-width: 768px) {
+  .categories .wrapper-categories li a {
+    padding: 10px 5px; }
+
+  .wrapper-item {
+    width: 280px;
+    margin: 0 auto; } }
+@media only screen and (max-width: 350px) {
+  .wrapper-item {
+    width: 100%; } }
+.single-blog {
+  background: #edeff2;
+  padding: 50px 0; }
+
+.article-blog h1 {
+  font-size: 32px;
+  color: #000000;
+  text-transform: none;
+  margin: 20px 0;
+  text-align: left;
+  font-weight: 400; }
+.article-blog .wrap-meta-article {
+  font-size: 12px; }
+  .article-blog .wrap-meta-article span {
+    margin-right: 10px;
+    color: #db5a4a; }
+    .article-blog .wrap-meta-article span a {
+      color: #db5a4a; }
+    .article-blog .wrap-meta-article span i {
+      color: gray; }
+.article-blog img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px; }
+.article-blog ul {
+  padding: 20px 0; }
+  .article-blog ul li {
+    font-weight: 300;
+    font-size: 16px;
+    color: #333; }
+
+hr {
+  background: #dddee2;
+  height: 1px; }
+
+.wrapper-search .btn-primary {
+  background-color: #db5a4a;
+  border: none;
+  border-bottom: solid 4px #bf3928;
+  outline: none; }
+.wrapper-search .form-control {
+  border: 2px solid #e5e7e9;
+  box-shadow: none; }
+
+.sidebar-blog h4 {
+  font-size: 18px;
+  color: #e96656;
+  margin-bottom: 20px; }
+.sidebar-blog li a {
+  font-size: 12px;
+  color: #666;
+  padding: 12px;
+  display: block;
+  border-bottom: 1px solid #EDEDDE; }
+  .sidebar-blog li a:hover {
+    background: #f6f6f6;
+    text-decoration: none; }
+.sidebar-blog p {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 25px; }
+
+.course-full {
+  background: #edeff2;
+  padding: 50px 0; }
+
+.wrap-info-course {
+  padding: 20px 0;
+  overflow: hidden; }
+  .wrap-info-course .course-img {
+    width: 90%;
+    height: auto; }
+  .wrap-info-course .about-course, .wrap-info-course .structure-course {
+    padding: 0 20px 20px; }
+    .wrap-info-course .about-course header, .wrap-info-course .structure-course header {
+      color: #e96656;
+      font-size: 28px;
+      margin: 20px 0;
+      text-align: left;
+      font-weight: 300; }
+    .wrap-info-course .about-course ul, .wrap-info-course .structure-course ul {
+      color: #87919f;
+      font-size: 14px;
+      font-weight: 300; }
+      .wrap-info-course .about-course ul li, .wrap-info-course .structure-course ul li {
+        text-align: left;
+        border-bottom: dotted 1px #dcdcdc;
+        padding: 2px 0; }
+        .wrap-info-course .about-course ul li span, .wrap-info-course .structure-course ul li span {
+          font-weight: 400;
+          color: #2d343e;
+          text-transform: uppercase; }
+        .wrap-info-course .about-course ul li i, .wrap-info-course .structure-course ul li i {
+          color: #e96656;
+          margin-right: 5px; }
+  .wrap-info-course .structure-course img {
+    width: 60%;
+    height: auto;
+    display: block; }
+  .wrap-info-course .structure-course ul {
+    margin: 15px 0 25px; }
+
+.descr-course-full article {
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 16px; }
+  .descr-course-full article h3 {
+    padding: 5px;
+    font-weight: 300;
+    font-size: 32px;
+    color: #2D343E;
+    border-bottom: solid 1px #dcdcdc; }
+    .descr-course-full article h3 span {
+      font-weight: 600; }
+  .descr-course-full article img {
+    width: auto;
+    height: 80px;
+    display: block;
+    margin: 10px auto; }
+.descr-course-full .descr-course h2 {
+  color: #000000; }
+.descr-course-full .target-course ul {
+  margin-top: 10px; }
+  .descr-course-full .target-course ul li {
+    margin-bottom: 3px;
+    list-style-type: circle;
+    list-style-position: inside;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 400; }
+.descr-course-full .books-course h4 {
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  margin: 5px 0; }
+.descr-course-full .books-course p {
+  font-size: 12px; }
+
+/************************Responsive***************** */
+/*************************************************** */
+@media only screen and (max-width: 1200px) {
+  .wrap-info-course article ul li span {
+    text-transform: none; } }
+@media only screen and (max-width: 768px) {
+  .top-page {
+    margin-top: 50px; }
+
+  .info-course .wrap-info-course {
+    width: 300px;
+    margin: 0 auto; }
+
+  .wrap-info-course article h5 {
+    font-size: 20px; }
+
+  .descr-course-full article h3 {
+    font-size: 24px; } }
+@media only screen and (max-width: 350px) {
+  .info-course .wrap-info-course {
+    width: 100%; } }
+.price-pay {
+  padding: 10px 0 40px;
+  background: #edeff2; }
+
+/*.payment-descr
+ * font-weight: 300
+ * margin: 10px 0 */
+.pay header {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 20px 0;
+  background: #2D343E;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 300;
+  padding: 8px; }
+.pay .manual-pay {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 20px 0;
+  color: #34d293;
+  border-bottom: solid 1px #dcdcdc;
+  background: ghostwhite;
+  padding: 5px; }
+
+.nav-tabs li {
+  width: 14%; }
+  .nav-tabs li a {
+    padding: 5px; }
+
+.number-lesson {
+  color: #000000;
+  font-size: 20px;
+  display: block;
+  text-align: center; }
+  .number-lesson span {
+    display: block;
+    font-size: 12px; }
+
+.price-table {
+  padding: 10px;
+  text-align: center;
+  background: #ffffff;
+  border-bottom: solid 1px #dcdcdc;
+  border-right: solid 1px #dcdcdc;
+  border-left: solid 1px #dcdcdc; }
+  .price-table .amount-lesson {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    /*margin-bottom: 10px */
+    border-bottom: solid 1px #e96656; }
+    .price-table .amount-lesson img {
+      width: 30%;
+      margin: 10px auto; }
+    .price-table .amount-lesson span {
+      display: block;
+      font-size: 18px;
+      font-weight: 300; }
+  .price-table .price-lesson {
+    border-bottom: solid 1px #e96656;
+    font-size: 36px;
+    font-weight: 400; }
+    .price-table .price-lesson span {
+      text-transform: uppercase;
+      display: block;
+      font-size: 10px;
+      font-weight: 700; }
+  .price-table .sale-lesson {
+    font-weight: 300;
+    border-bottom: solid 1px #e96656;
+    font-size: 24px; }
+    .price-table .sale-lesson span {
+      text-transform: uppercase;
+      display: block;
+      font-size: 10px;
+      font-weight: 700; }
+  .price-table .sum-lesson {
+    font-weight: 300;
+    font-size: 26px; }
+    .price-table .sum-lesson span {
+      text-transform: uppercase;
+      display: block;
+      font-size: 10px;
+      font-weight: 700; }
+  .price-table .get-lesson {
+    padding: 0; }
+    .price-table .get-lesson p {
+      display: block; }
+    .price-table .get-lesson .btn-red, .price-table .get-lesson .btn-footer {
+      margin: 10px 0; }
+      .price-table .get-lesson .btn-red a, .price-table .get-lesson .btn-footer a {
+        font-size: 14px;
+        padding: 10px 35px; }
+
+.payment {
+  padding: 30px 0; }
+  .payment h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 22px;
+    padding: 10px 0; }
+
+/************************Responsive***************** */
+/*************************************************** */
+@media only screen and (max-width: 992px) {
+  .number-lesson span {
+    display: none; } }
+@media only screen and (max-width: 768px) {
+  .payment-system {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center; } }
+.teachers {
+  padding: 20px 0;
+  background: #edeff2; }
+
+.list-teachers {
+  border-top: solid 1px #dddee2;
+  border-bottom: solid 1px #dddee2;
+  padding-top: 20px;
+  margin: 20px 0; }
+  .list-teachers li:nth-child(2n) .wrap-teacher .name-teacher {
+    border-bottom: solid 2px #34d293; }
+  .list-teachers li:nth-child(3n) .wrap-teacher .name-teacher {
+    border-bottom: solid 2px #3ab0e2; }
+  .list-teachers li:nth-child(4n) .wrap-teacher .name-teacher {
+    border-bottom: solid 2px #e7ac44; }
+
+.wrap-teacher {
+  padding: 30px 20px;
+  position: relative;
+  background: ghostwhite;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #E3E4E8;
+  border-radius: 2px; }
+  .wrap-teacher .cv-teacher {
+    font-weight: 300;
+    display: none;
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    top: -5px;
+    bottom: -5px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.85);
+    color: #ffffff;
+    font-size: 13px; }
+  .wrap-teacher .name-teacher {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px 20px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #e96656;
+    font-weight: 600;
+    font-size: 16px; }
+    .wrap-teacher .name-teacher span {
+      text-transform: none;
+      display: block;
+      font-size: 12px;
+      font-weight: 400; }
+  .wrap-teacher .age-teacher, .wrap-teacher .experience, .wrap-teacher .certificate {
+    margin: 0;
+    font-weight: 400;
+    text-align: center;
+    font-size: 13px; }
+    .wrap-teacher .age-teacher span, .wrap-teacher .experience span, .wrap-teacher .certificate span {
+      font-weight: 300; }
+
+/************************Responsive***************** */
+/*************************************************** */
+@media only screen and (max-width: 768px) {
+  .wrap-teacher {
+    width: 280px;
+    margin: 0 auto 20px; } }
+@media only screen and (max-width: 350px) {
+  .wrap-teacher {
+    width: 100%; } }
+.contacts {
+  padding: 50px 0;
+  background: #edeff2; }
+  .contacts .contacts-info li {
+    color: #404040; }
+    .contacts .contacts-info li:first-child p {
+      font-size: 14px; }
+      .contacts .contacts-info li:first-child p span {
+        display: inline;
+        font-weight: 700; }
+    .contacts .contacts-info li p {
+      font-weight: 400;
+      font-size: 14px;
+      margin: 10px 0; }
+      .contacts .contacts-info li p:first-child {
+        text-transform: uppercase;
+        font-size: 22px;
+        color: #e96656; }
+
+.wrap-form .form-contact {
+  width: 100%;
+  background: none; }
+  .wrap-form .form-contact .btn-submit {
+    /*border-radius: 5px */
+    width: 100%;
+    margin-top: 20px;
+    /*margin: 20px 100px 0 10px */
+    background: #e96656;
+    padding: 10px 50px;
+    color: #ffffff;
+    border: none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+    .wrap-form .form-contact .btn-submit:hover {
+      background: #000000; }
+
+.wrap-form-name, .wrap-form-email, .wrap-form-subject, .wrap-form-message {
+  padding: 5px; }
+  .wrap-form-name input, .wrap-form-name textarea, .wrap-form-email input, .wrap-form-email textarea, .wrap-form-subject input, .wrap-form-subject textarea, .wrap-form-message input, .wrap-form-message textarea {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    border: solid 1px #dcdcdc;
+    outline: none;
+    padding: 10px 15px; }
+    .wrap-form-name input:focus, .wrap-form-name input:hover, .wrap-form-name textarea:focus, .wrap-form-name textarea:hover, .wrap-form-email input:focus, .wrap-form-email input:hover, .wrap-form-email textarea:focus, .wrap-form-email textarea:hover, .wrap-form-subject input:focus, .wrap-form-subject input:hover, .wrap-form-subject textarea:focus, .wrap-form-subject textarea:hover, .wrap-form-message input:focus, .wrap-form-message input:hover, .wrap-form-message textarea:focus, .wrap-form-message textarea:hover {
+      border: solid 1px #000000; }
+  .wrap-form-name ::-webkit-input-placeholder, .wrap-form-email ::-webkit-input-placeholder, .wrap-form-subject ::-webkit-input-placeholder, .wrap-form-message ::-webkit-input-placeholder {
+    font-weight: 300; }
+
+.add-info {
+  padding: 30px 0 30px;
+  margin-top: 20px;
+  font-weight: 300; }
+  .add-info p {
+    margin-bottom: 10px; }
+
+/************************Responsive***************** */
+/*************************************************** */
+@media only screen and (max-width: 768px) {
+  .contacts-info {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center; } }
 /******************************************sass******************************** */
 /*colors */
 /*******************************************end-sass*************************** */
