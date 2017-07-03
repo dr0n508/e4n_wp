@@ -11,10 +11,10 @@
 ?>
 
 				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 item">
-                    <div class="wrapper-item">
+                    <div class="wrapper-item" data-same-height="blog-info">
                     	<?php if ( has_post_thumbnail() && ! post_password_required() && ! is_attachment() ) : ?>
                         <div class="wrap-img">
-                            <a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail('mini', array()); ?></a>
+                            <?php the_post_thumbnail('mini', array()); ?>
                         </div>
                         <?php endif; ?>
                         <div class="wrapper-post">

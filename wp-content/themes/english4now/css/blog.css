@@ -43,19 +43,13 @@
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
   .item .wrapper-item .wrap-img {
     overflow: hidden;
-    border-bottom: solid 2px #e96656; }
-    .item .wrapper-item .wrap-img a img {
-      -webkit-transition: 0.3s;
-      -moz-transition: 0.3s;
-      -ms-transition: 0.3s;
-      -o-transition: 0.3s;
-      transition: 0.3s; }
-      .item .wrapper-item .wrap-img a img:hover {
-        transform: scale(1.1); }
+    border-bottom: solid 2px #e96656;
+    height: 200px;
+    width: 100%;
+    line-height: 200px; }
 .item img {
   width: 100%;
-  height: auto;
-}
+  height: auto; }
 .item .wrapper-post .header-article {
   font-size: 18px;
   font-weight: 400;
@@ -80,8 +74,7 @@
   font-size: 12px; }
 
 .pagination-centered {
-  text-align: center;
-  background: #EDEFF2 none repeat scroll 0% 0%; }
+  text-align: center; }
 
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
   background-color: #e96656;
@@ -89,51 +82,6 @@
 
 .pagination > li > a, .pagination > li > span, .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
   color: #e96656; }
-
-    .pagination-lg .page-numbers{
-position: relative;
-float: left;
-padding: 6px 12px;
-margin-left: -1px;
-line-height: 1.42857;
-color: #337AB7;
-text-decoration: none;
-background-color: #FFF;
-border: 1px solid #DDD;
-padding: 10px 16px;
-font-size: 18px;
-color: #E96656;
-}
-
-.pagination-lg .current{
-  background-color: #E96656;
-border-color: #E96656;
-color: #fff;
-}
-
-.pagination-lg .current:focus{
-    background: #eee;
-    border-color: #ddd;
-}
-
-.prev{
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
-}
-
-.next{
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-}
-
-.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-  background-color: #e96656;
-  border-color: #e96656; }
-
-.pagination > li > a, .pagination > li > span, .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
-  color: #e96656; }
-
-
 
 /************************Responsive***************** */
 /*************************************************** */

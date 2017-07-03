@@ -155,8 +155,8 @@ function twentythirteen_scripts_styles() {
 		wp_enqueue_script( 'comment-reply' );
 
 	// Adds Masonry to handle vertical alignment of footer widgets.
-	if ( is_active_sidebar( 'sidebar-1' ) )
-		wp_enqueue_script( 'jquery-masonry' );
+//	if ( is_active_sidebar( 'sidebar-1' ) )
+//		wp_enqueue_script( 'jquery-masonry' );
 
 	// Loads JavaScript file with functionality specific to Twenty Thirteen.
 	wp_enqueue_script( 'twentythirteen-script', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '20150330', true );
@@ -602,13 +602,13 @@ add_action( 'template_redirect', 'twentythirteen_content_width' );
 
 function wpsites_load_javascript_conditionally() {
     if ( is_archive() or is_search() or is_tag() or is_category() or is_home() ) {
-    wp_enqueue_script( 'masonry.pkgd', get_template_directory_uri() . '/js/masonry.pkgd.min.js' );
-    wp_enqueue_script( 'imagesloaded', get_template_directory_uri(). '/js/imagesloaded.pkgd.min.js' );
-  	wp_enqueue_script( 'masony-start', get_template_directory_uri(). '/js/masony-start.js' );
+//    wp_enqueue_script( 'masonry.pkgd', get_template_directory_uri() . '/js/masonry.pkgd.min.js' );
+//    wp_enqueue_script( 'imagesloaded', get_template_directory_uri(). '/js/imagesloaded.pkgd.min.js' );
+//  	wp_enqueue_script( 'masony-start', get_template_directory_uri(). '/js/masony-start.js' );
 
-    wp_enqueue_script( 'masonry.pkgd' );
-    wp_enqueue_script( 'imagesloaded' );
-    wp_enqueue_script( 'masony-start' );
+//    wp_enqueue_script( 'masonry.pkgd' );
+//    wp_enqueue_script( 'imagesloaded' );
+//    wp_enqueue_script( 'masony-start' );
   
     }  
 }

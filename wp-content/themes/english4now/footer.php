@@ -124,16 +124,16 @@
 <!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/owl.carousel.js"></script>-->
     <!--OWL-->
 
-    <script src="<?php echo get_template_directory_uri(); ?>/js/headhesive.min.js"></script>
+<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/headhesive.min.js"></script>-->
    
 
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.scrollUp.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/functions.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/headhesive.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-imagefill.js"></script>
+<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/jquery-imagefill.js"></script>-->
     <script src="<?php echo get_template_directory_uri(); ?>/js/npm.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/blog.js"></script>
+<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/blog.js"></script>-->
     <script src="<?php echo get_template_directory_uri(); ?>/fancybox/jquery.fancybox.js"></script>
        
     
