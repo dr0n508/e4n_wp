@@ -1472,3 +1472,37 @@ nav
 
     .sale-description
       text-align: center
+
+//new carousel bootstrap
+
+
+.carousel-inner
+  .item
+    padding: 20px 10%
+    .wrap-testimonials
+      display: flex
+      align-items: center
+      .text-testimonials
+        font-size: 13px
+        .name-client
+          margin-top: 10px
+          font-size: 20px
+      img
+        width: 170px
+        height: auto
+        margin: 10px 20px
+  @media only screen and (max-width: 768px)
+    .item
+      .wrap-testimonials
+        flex-direction: column
+        .text-testimonials
+          font-size: 12px
+        img
+          width: 90px
+          height: auto
+
+.carousel-control
+  width: 10%
+  background: none !important
+  color: black
+

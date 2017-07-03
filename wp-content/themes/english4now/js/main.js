@@ -35,23 +35,23 @@ $(document).ready(function() {
 
     // слайдер отзывы
 
-    var owl = $("#testimonials-carousel");
-
-    owl.owlCarousel({
-
-        itemsCustom : [
-            [0, 1],
-            [450, 1],
-            [600, 1],
-            [700, 1],
-            [1000, 1],
-            [1200, 2],
-            [1400, 2],
-            [1600, 2]
-        ],
-        navigation : true
-
-    });
+    // var owl = $("#testimonials-carousel");
+    //
+    // owl.owlCarousel({
+    //
+    //     itemsCustom : [
+    //         [0, 1],
+    //         [450, 1],
+    //         [600, 1],
+    //         [700, 1],
+    //         [1000, 1],
+    //         [1200, 2],
+    //         [1400, 2],
+    //         [1600, 2]
+    //     ],
+    //     navigation : true
+    //
+    // });
 
 
 

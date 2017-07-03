@@ -1324,4 +1324,32 @@ nav .dropdown .dropdown-menu {
     .sale .sale-item .sale-description {
       text-align: center; }
 
+.carousel-inner .item {
+  padding: 20px 10%; }
+  .carousel-inner .item .wrap-testimonials {
+    display: flex;
+    align-items: center; }
+    .carousel-inner .item .wrap-testimonials .text-testimonials {
+      font-size: 13px; }
+      .carousel-inner .item .wrap-testimonials .text-testimonials .name-client {
+        margin-top: 10px;
+        font-size: 20px; }
+    .carousel-inner .item .wrap-testimonials img {
+      width: 170px;
+      height: auto;
+      margin: 10px 20px; }
+@media only screen and (max-width: 768px) {
+  .carousel-inner .item .wrap-testimonials {
+    flex-direction: column; }
+    .carousel-inner .item .wrap-testimonials .text-testimonials {
+      font-size: 12px; }
+    .carousel-inner .item .wrap-testimonials img {
+      width: 90px;
+      height: auto; } }
+
+.carousel-control {
+  width: 10%;
+  background: none !important;
+  color: black; }
+
 /*# sourceMappingURL=styles.css.map */

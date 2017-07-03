@@ -38,9 +38,9 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/contacts.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/fancybox/jquery.fancybox.css" />
 		<!-- Important Owl stylesheet -->
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.carousel.css">
+<!--	<link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/css/owl.carousel.css">-->
 	<!-- Default Theme -->
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.theme.css">
+<!--	<link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/css/owl.theme.css">-->
 
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>

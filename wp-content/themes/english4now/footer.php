@@ -58,7 +58,7 @@
 </script>
     <div class="footer-bottom">
 
-        <p class="copyright">Copyright © 2015 english4now.com. All rights reserved.</p>
+        <p class="copyright">Copyright © 2017 english4now.com. All rights reserved.</p>
 
     </div>
 
@@ -119,9 +119,9 @@
 
 
     <!--  jQuery 1.7+  -->
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.9.1.min.js"></script>
+<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/jquery-1.9.1.min.js"></script>-->
     <!-- Include js plugin -->
-    <script src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.js"></script>
+<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/owl.carousel.js"></script>-->
     <!--OWL-->
 
     <script src="<?php echo get_template_directory_uri(); ?>/js/headhesive.min.js"></script>
