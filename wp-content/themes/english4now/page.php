@@ -89,6 +89,16 @@ get_header(); ?>
 </section>
 
 
+
+
+
+<!--<div class="youtube"-->
+<!--     id="lR4tJr7sMPM"-->
+<!--     data-params="modestbranding=1&showinfo=0&controls=0&vq=hd720"-->
+<!--     style="width: 640px; height: 360px;">-->
+<!--</div>-->
+
+
 <!--------------------advantages SECTION------------------------>
 <section id="advantages-skype" class="advantages">
         <div class="container">
@@ -191,10 +201,12 @@ get_header(); ?>
 <!--------------------spent-lesson SECTION------------------------>
 <section class="spent-lesson" id="spent-lesson">
     <div class="container">
+        <div class="row">
             <h2 class="header-section">Как проходит <span>наш урок</span>?</h2>
             <p class="descr-lesson col-lg-6 col-md-6">Урок английского по Скайпу предусматривает постоянную разговорную практику, за счет этого все теоретические наработки становятся активными, что позволяет свободно говорить на английском, употребляя ранее выученные, доведенные до автоматизма конструкции.</p>
             <p class="descr-lesson col-lg-6 col-md-6">  Наши преподаватели создают наиболее благоприятные условия для того, чтобы урок английского по Скайпу был максимально продуктивным. Все для того, чтобы ученик преодолел языковой барьер, научился мыслить по -английски, мог перефразировать сложные предложения, находил синонимы, развивал разговорную речь. </p>
             <section class="col-lg-6 col-md-12 col-sm-12">
+                <div class="row">
                 <h3><span>Принципы преподавания</span> наших учителей:</h3>
                 <div class="col-lg-6 col-md-4 col-sm-4">
                     <div class="rule-lesson">
@@ -232,12 +244,21 @@ get_header(); ?>
                         <p><b>Регулярный контроль</b> знаний и повторение пройдённого материала</p>
                     </div>
                 </div>
-            </section>
-            <div class="col-lg-6">
-                <h3><span>Пример урока</span> с нашим преподавателем</h3>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/k5qCD7cAVCo" frameborder="0" allowfullscreen></iframe>
                 </div>
+            </section>
+            <div class="col-lg-6 youtube-wrapper">
+                <div class="row">
+
+
+                    <h3><span>Пример урока</span> с нашим преподавателем</h3>
+                    <div class="youtube"
+                         id="k5qCD7cAVCo"
+                         >
+                    </div>
+                </div>
+<!--                <div class="embed-responsive embed-responsive-16by9">-->
+<!--                    <iframe width="560" height="315" src="https://www.youtube.com/embed/k5qCD7cAVCo" frameborder="0" allowfullscreen></iframe>-->
+<!--                </div>-->
             </div>
     </div>
     <div class="need-for-lesson visible-lg">
@@ -257,6 +278,7 @@ get_header(); ?>
                     </li>
                 </ul>
         </div>
+    </div>
     </div>
 </section>
 

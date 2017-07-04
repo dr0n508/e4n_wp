@@ -30,7 +30,7 @@
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css" />
 <!--	<link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/css/blog.css" />-->
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/styles.css?ver=3" />
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/styles.css?ver=4" />
 <!--    <link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/css/courses.css" />-->
 <!--    <link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/css/single-blog.css" />-->
 <!--    <link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/css/payment.css" />-->
