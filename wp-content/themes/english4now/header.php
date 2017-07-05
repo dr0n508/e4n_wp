@@ -75,7 +75,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><i class="fa fa-home"></i>Главная</a></li>
+<!--                    <li><a href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--"><i class="fa fa-home"></i>Главная</a></li>-->
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>discount/"><i class="fa fa-money"></i>АКЦИЯ</a></li>
 		    
                     <li class="dropdown">
