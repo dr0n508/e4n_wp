@@ -675,6 +675,8 @@ nav .dropdown .dropdown-menu {
   font-size: 18px;
   color: white;
   line-height: 1.2; }
+  .about-free-lesson span {
+    color: #ffed00; }
   @media only screen and (max-width: 768px) {
     .about-free-lesson {
       font-size: 14px;
@@ -705,7 +707,7 @@ nav .dropdown .dropdown-menu {
   font-size: 20px;
   line-height: 1.2; }
   .main-slogan span {
-    color: #e96656;
+    color: #ffed00;
     font-weight: 500;
     padding: 0 5px;
     border-radius: 3px; }
@@ -747,9 +749,9 @@ nav .dropdown .dropdown-menu {
       .form-free-lesson .wrapper-form input:focus {
         background: white; }
     .form-free-lesson .wrapper-form .submit-form {
-      background: #8d496c;
+      background: #ffed00;
       padding: 15px 5px;
-      color: white;
+      color: black;
       text-transform: uppercase;
       -webkit-transition: 0.3s;
       -moz-transition: 0.3s;
@@ -757,7 +759,7 @@ nav .dropdown .dropdown-menu {
       -o-transition: 0.3s;
       transition: 0.3s; }
       .form-free-lesson .wrapper-form .submit-form:hover {
-        background: #6c364f; }
+        background: #FFF462; }
   @media only screen and (max-width: 992px) {
     .form-free-lesson .wrapper-form {
       margin: 20px auto 0 auto;
