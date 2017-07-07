@@ -70,9 +70,18 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <section class="col-lg-8 col-md-8 col-sm-7 h1-slogan">
-                <h1 class="main-h1">Изучение <br>английского языка <br>по скайпу</h1>
-                <p class="main-slogan">Преодолей <span>языковой барьер</span><br>
-                    в интересной обучающей форме <span>за 2 месяца!</span></p>
+                <p class="main-slogan">Учись <span>дома!</span></p>
+                <p class="main-slogan">В <span>удобное</span> время!</p>
+                <p class="main-slogan">С <span>персональным</span> преподавателем!</p>
+                <p class="main-slogan">Преодолей языковой барьер за <span>2 месяца!</span></p>
+                <h1 class="main-h1">Изучение английского по скайпу</h1>
+
+                <p class="about-free-lesson">Первый урок - бесплатный. Преподаватель учтет ваш уровень знаний, ваши цели, пожелания и проведет 45 минут полноценной языковой практики.</p>
+                <div class="wrap-link-see">
+                    <a class="link-see-lesson" href="<?php echo esc_url( home_url( '/' ) ); ?>#spent-lesson">Как проходит наш урок</a>
+                </div>
+
+
             </section>
            <form action="<?php echo get_template_directory_uri(); ?>/feedback-free.php" class="form-free-lesson col-lg-4 col-md-4 col-sm-5 center-block" method="POST">
                 <div class="wrapper-form">
@@ -1088,47 +1097,37 @@ get_header(); ?>
 
 <!--------------------последние статии блога------------------------>
 
-<section class="last-article hidden-xs">
-    <h2 class="header-section">Популярные <span>статьи</span> блога</h2>
-
-
-    <div class="container">
-        <div class="row">
-            <?php
-            function filter_where($where = '') {
-             $where .= " AND post_date > '" . date('Y-m-d', strtotime('-360 days')) . "'";
-             return $where;
-            }
-            add_filter('posts_where', 'filter_where');
-            $popular = new WP_query('orderby=comment_count&posts_per_page=3'); ?>
-            <?php while ($popular->have_posts()) : $popular->the_post(); ?>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item">
-                <div class="wrapper-item">
-                    <div class="wrap-img">
-                        <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('mini', array()); ?></a>
-                    </div>
-                    <div class="wrapper-post">
-                        <p class="date-post"><?php the_time('j F Y'); ?></p>
-                        <h3 class="header-article"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
-                        <p class="tag"><?php echo the_category(); ?></p>
-                    </div>
-                </div>
-            </div>
-            <?php endwhile; wp_reset_query(); ?>
-                 
-
-
-        </div>
-
-
-
-
-
-        <p class="btn-red"><a href="<?php echo esc_url( home_url( '/' ) ); ?>blog/">Еще статей!</a></p>
-
-    </div>
-
-</section>
+<!--<section class="last-article hidden-xs">-->
+<!--    <h2 class="header-section">Популярные <span>статьи</span> блога</h2>-->
+<!---->
+<!---->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            --><?php
+//            function filter_where($where = '') {
+//             $where .= " AND post_date > '" . date('Y-m-d', strtotime('-360 days')) . "'";
+//             return $where;
+//            }
+//            add_filter('posts_where', 'filter_where');
+//            $popular = new WP_query('orderby=comment_count&posts_per_page=3'); ?>
+<!--            --><?php //while ($popular->have_posts()) : $popular->the_post(); ?>
+<!--            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item">-->
+<!--                <div class="wrapper-item">-->
+<!--                    <div class="wrap-img">-->
+<!--                        <a href="--><?php //the_permalink(); ?><!--" title="--><?php //the_title(); ?><!--">--><?php //the_post_thumbnail('mini', array()); ?><!--</a>-->
+<!--                    </div>-->
+<!--                    <div class="wrapper-post">-->
+<!--                        <p class="date-post">--><?php //the_time('j F Y'); ?><!--</p>-->
+<!--                        <h3 class="header-article"><a href="--><?php //the_permalink(); ?><!--" title="--><?php //the_title(); ?><!--">--><?php //the_title(); ?><!--</a></h3>-->
+<!--                        <p class="tag">--><?php //echo the_category(); ?><!--</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            --><?php //endwhile; wp_reset_query(); ?>
+<!--        </div>-->
+<!--        <p class="btn-red"><a href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--blog/">Еще статей!</a></p>-->
+<!--    </div>-->
+<!--</section>-->
 
 
 

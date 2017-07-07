@@ -236,138 +236,108 @@ nav
 
 
 .welcome
-  //margin-top: 105px
   padding: 80px 0 80px
+  //background:  linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("../img/Cities_Westminster_Bridge__Big_Ben__London__England_033251_.jpg") 50% 50% no-repeat
   background: linear-gradient(rgba(45, 57, 80, 0.9), rgba(45, 57, 80, 0.9)), url("../img/bg-blue_.jpg") 50% 50%
   @media only screen and (max-width: 768px)
     padding: 30px 0 30px
-    //margin-top: 50px
 
-  //padding: 30px 0 30px
-  //background:  url("../img/girl-point-up.jpg") 50% 100% no-repeat
-  //background-size: 25%
-  //@media only screen and (max-width: 1400px)
-  //  background-size: 30%
-  //@media only screen and (max-width: 1200px)
-  //  background-size: 35%
-  //.trouble-clients li
-  //  padding: 5px
-  //@media only screen and (max-width: 992px)
-  //  background: none
-  //@media only screen and (max-width: 768px)
-  //  padding: 20px 0 20px
-  //  .h1-slogan
-  //    background:  url("../img/girl-point-up.jpg") 100% 100% no-repeat
-  //    background-size: 40%
-  //    .main-h1
-  //      width: 50%
-  //@media only screen and (max-width: 600px)
-  //  .h1-slogan
-  //    padding-bottom: 150px
-  //    background:  url("../img/girl-point-up.jpg") 50% 100% no-repeat
-  //    background-size: 40%
-  //    .main-h1
-  //      width: 100%
-  //@media only screen and (max-width: 450px)
-  //  .h1-slogan
-  //
-  //    background-size: 50%
 .h1-slogan
-  border-left: solid 4px white
   @media only screen and (max-width: 768px)
     border: none
 
 .main-h1
-  //text-transform: uppercase
-  font-weight: 800
-  font-size: 50px
   color: white
+  font-size: 45px
+  padding: 20px 0
+  margin-bottom: 30px
+  letter-spacing: -2px
+  font-weight: 600
+  @media only screen and (max-width: 768px)
+    letter-spacing: -1px
+    padding: 10px 0
+    font-size: 26px !important
+
+
+
+.about-free-lesson
+  font-size: 18px
+  color: white
+  line-height: 1.2
+  @media only screen and (max-width: 768px)
+    font-size: 14px
+    text-align: center
+
+
+.wrap-link-see
+  @media only screen and (max-width: 768px)
+    text-align: center
+
+.link-see-lesson
+  text-decoration: none
+  color: white
+  margin-top: 20px
+  padding: 20px 20px
+  display: inline-block
+  border-radius: 3px
+  border: solid 1px white
+  font-size: 16px
+  font-weight: 600
+  &:hover
+    text-decoration: none
+    border: solid 1px #e96656
+
+    color: #e96656
 
 .main-slogan
   color: white
-  font-weight: 600
-  margin: 20px 0
-  font-size: 24px
-  line-height: 27px
+  font-weight: 400
+  font-size: 20px
+  line-height: 1.2
   span
     color: #e96656
-    font-weight: 700
+    //text-decoration: underline
+    font-weight: 500
+    padding: 0 5px
+    border-radius: 3px
   @media only screen and (max-width: 768px)
-    font-size: 19px
-    line-height: 22px
-    margin: 10px 0
+    text-align: center
+    font-size: 13px
     font-weight: 400
     span
       font-weight: 400
 
-  //@media only screen and (max-width: 1200px)
-  //  width: 400px
-  //@media only screen and (max-width: 992px)
-  //  width: 100%
-  //@media only screen and (max-width: 768px)
-  //  width: 50%
-  //  font-size: 19px
-  //  line-height: 22px
-  //@media only screen and (max-width: 600px)
-  //  width: 100%
 
-//.trouble-clients
-//  color: white
-//  margin-bottom: 20px
-//  padding-left: 5px
-//  padding-right: 5px
-//  i
-//    font-size: 24px
-//    width: 30px
-//  ul li
-//    padding-bottom: 12px
-//    font-weight: 300
-//    font-size: 16px
-//  .solution-trouble
-//    font-weight: 400
-//    font-size: 18px
-//    color: #ffff00
-//    text-transform: uppercase
-
-//.wrap-intro-video
-//  iframe
-//    /*display: inline-block
-//    border: solid 10px #dcdcdc
-//    border-radius: 10px
 
 .form-free-lesson
   text-align: center
   .wrapper-form
     margin: 0 30px
-    background: white
-    border: solid 1px #8d496c
-    border-radius: 5px
     padding: 20px
     .header-form
       font-size: 18px
-      font-weight: 800
+      font-weight: 400
       line-height: 20px
       margin-bottom: 20px
-      color: #8d496c
-      //color: white
+      color: white
       span
         text-transform: uppercase
         display: block
-        font-weight: 800
+        font-weight: 400
         font-size: 22px
     input
       border: none
       display: block
       width: 100%
-      padding: 5px 10px
-      margin-bottom: 10px
+      padding: 12px 10px
+      margin-bottom: 5px
       background: white
       color: black
-      border-bottom: solid 1px #8d496c
+      border-radius: 5px
+      &:last-child
+        margin-top: 10px
       &:focus
         background: white
-    /*::-webkit-input-placeholder
-      color: grey
     .submit-form
       background: #8d496c
       padding: 15px 5px
@@ -378,7 +348,9 @@ nav
         background: #6c364f
   @media only screen and (max-width: 992px)
     .wrapper-form
-      margin: 0
+
+      margin: 20px auto 0 auto
+      max-width: 400px
   @media only screen and (max-width: 768px)
     .wrapper-form
       padding: 5px
@@ -430,10 +402,10 @@ nav
   /*padding: 10px
   .arrow_box
     position: relative
-    background: #dcdcdc
-    border: 5px solid #ffffff
+    //background: #dcdcdc
+    //border: 5px solid #ffffff
     margin: 0 25px
-    padding: 17px 30px
+    //padding: 17px 30px
     text-align: center
     @include transition
   h3
@@ -446,53 +418,53 @@ nav
     text-align: center
     color: gray
   .arrow_box:after, .arrow_box:before
-    top: 100%
-    left: 50%
-    border: solid transparent
-    content: " "
-    height: 0
-    width: 0
-    position: absolute
-    pointer-events: none
-    @include transition
+    //top: 100%
+    //left: 50%
+    //border: solid transparent
+    //content: " "
+    //height: 0
+    //width: 0
+    //position: absolute
+    //pointer-events: none
+    //@include transition
   .arrow_box:after
-    border-color: rgba(58, 176, 226, 0)
-    border-top-color: #dcdcdc
-    border-width: 15px
-    margin-left: -15px
+    //border-color: rgba(58, 176, 226, 0)
+    //border-top-color: #dcdcdc
+    //border-width: 15px
+    //margin-left: -15px
   .arrow_box:before
-    border-color: rgba(255, 255, 255, 0)
-    border-top-color: #ffffff
-    border-width: 21px
-    margin-left: -21px
+    //border-color: rgba(255, 255, 255, 0)
+    //border-top-color: #ffffff
+    //border-width: 21px
+    //margin-left: -21px
 
 .adw1 .arrow_box
-  background: $blue1
+  //background: $blue1
 .adw1 .arrow_box:after
-  border-top-color: $blue1
+  //border-top-color: $blue1
 .adw1 h3
-  color: $blue1
+  //color: $blue1
 
 .adw2:hover .arrow_box
-  background: $green1
+  //background: $green1
 .adw2:hover .arrow_box:after
-  border-top-color: $green1
+  //border-top-color: $green1
 .adw2:hover h3
-  color: $green1
+  //color: $green1
 
 .adw3:hover .arrow_box
-  background: $red1
+  //background: $red1
 .adw3:hover .arrow_box:after
-  border-top-color: $red1
+  //border-top-color: $red1
 .adw3:hover h3
-  color: $red1
+  //color: $red1
 
 .adw4:hover .arrow_box
-  background: $yellow1
+  //background: $yellow1
 .adw4:hover .arrow_box:after
-  border-top-color: $yellow1
+  //border-top-color: $yellow1
 .adw4:hover h3
-  color: $yellow1
+  //color: $yellow1
 
 /**************************************why-we **********************************/
 /*******************************************************************************/

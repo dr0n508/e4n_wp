@@ -654,31 +654,65 @@ nav .dropdown .dropdown-menu {
     .welcome {
       padding: 30px 0 30px; } }
 
-.h1-slogan {
-  border-left: solid 4px white; }
-  @media only screen and (max-width: 768px) {
-    .h1-slogan {
-      border: none; } }
+@media only screen and (max-width: 768px) {
+  .h1-slogan {
+    border: none; } }
 
 .main-h1 {
-  font-weight: 800;
-  font-size: 50px;
-  color: white; }
+  color: white;
+  font-size: 45px;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  letter-spacing: -2px;
+  font-weight: 600; }
+  @media only screen and (max-width: 768px) {
+    .main-h1 {
+      letter-spacing: -1px;
+      padding: 10px 0;
+      font-size: 26px !important; } }
+
+.about-free-lesson {
+  font-size: 18px;
+  color: white;
+  line-height: 1.2; }
+  @media only screen and (max-width: 768px) {
+    .about-free-lesson {
+      font-size: 14px;
+      text-align: center; } }
+
+@media only screen and (max-width: 768px) {
+  .wrap-link-see {
+    text-align: center; } }
+
+.link-see-lesson {
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  padding: 20px 20px;
+  display: inline-block;
+  border-radius: 3px;
+  border: solid 1px white;
+  font-size: 16px;
+  font-weight: 600; }
+  .link-see-lesson:hover {
+    text-decoration: none;
+    border: solid 1px #e96656;
+    color: #e96656; }
 
 .main-slogan {
   color: white;
-  font-weight: 600;
-  margin: 20px 0;
-  font-size: 24px;
-  line-height: 27px; }
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2; }
   .main-slogan span {
     color: #e96656;
-    font-weight: 700; }
+    font-weight: 500;
+    padding: 0 5px;
+    border-radius: 3px; }
   @media only screen and (max-width: 768px) {
     .main-slogan {
-      font-size: 19px;
-      line-height: 22px;
-      margin: 10px 0;
+      text-align: center;
+      font-size: 13px;
       font-weight: 400; }
       .main-slogan span {
         font-weight: 400; } }
@@ -687,32 +721,29 @@ nav .dropdown .dropdown-menu {
   text-align: center; }
   .form-free-lesson .wrapper-form {
     margin: 0 30px;
-    background: white;
-    border: solid 1px #8d496c;
-    border-radius: 5px;
-    padding: 20px;
-    /*::-webkit-input-placeholder
-     * color: grey */ }
+    padding: 20px; }
     .form-free-lesson .wrapper-form .header-form {
       font-size: 18px;
-      font-weight: 800;
+      font-weight: 400;
       line-height: 20px;
       margin-bottom: 20px;
-      color: #8d496c; }
+      color: white; }
       .form-free-lesson .wrapper-form .header-form span {
         text-transform: uppercase;
         display: block;
-        font-weight: 800;
+        font-weight: 400;
         font-size: 22px; }
     .form-free-lesson .wrapper-form input {
       border: none;
       display: block;
       width: 100%;
-      padding: 5px 10px;
-      margin-bottom: 10px;
+      padding: 12px 10px;
+      margin-bottom: 5px;
       background: white;
       color: black;
-      border-bottom: solid 1px #8d496c; }
+      border-radius: 5px; }
+      .form-free-lesson .wrapper-form input:last-child {
+        margin-top: 10px; }
       .form-free-lesson .wrapper-form input:focus {
         background: white; }
     .form-free-lesson .wrapper-form .submit-form {
@@ -729,7 +760,8 @@ nav .dropdown .dropdown-menu {
         background: #6c364f; }
   @media only screen and (max-width: 992px) {
     .form-free-lesson .wrapper-form {
-      margin: 0; } }
+      margin: 20px auto 0 auto;
+      max-width: 400px; } }
   @media only screen and (max-width: 768px) {
     .form-free-lesson .wrapper-form {
       padding: 5px;
@@ -782,10 +814,7 @@ nav .dropdown .dropdown-menu {
   /*padding: 10px */ }
   .wrap-adw .arrow_box {
     position: relative;
-    background: #dcdcdc;
-    border: 5px solid #ffffff;
     margin: 0 25px;
-    padding: 17px 30px;
     text-align: center;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -805,66 +834,6 @@ nav .dropdown .dropdown-menu {
   .wrap-adw p {
     text-align: center;
     color: gray; }
-  .wrap-adw .arrow_box:after, .wrap-adw .arrow_box:before {
-    top: 100%;
-    left: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s; }
-  .wrap-adw .arrow_box:after {
-    border-color: rgba(58, 176, 226, 0);
-    border-top-color: #dcdcdc;
-    border-width: 15px;
-    margin-left: -15px; }
-  .wrap-adw .arrow_box:before {
-    border-color: rgba(255, 255, 255, 0);
-    border-top-color: #ffffff;
-    border-width: 21px;
-    margin-left: -21px; }
-
-.adw1 .arrow_box {
-  background: #3ab0e2; }
-
-.adw1 .arrow_box:after {
-  border-top-color: #3ab0e2; }
-
-.adw1 h3 {
-  color: #3ab0e2; }
-
-.adw2:hover .arrow_box {
-  background: #34d293; }
-
-.adw2:hover .arrow_box:after {
-  border-top-color: #34d293; }
-
-.adw2:hover h3 {
-  color: #34d293; }
-
-.adw3:hover .arrow_box {
-  background: #e96656; }
-
-.adw3:hover .arrow_box:after {
-  border-top-color: #e96656; }
-
-.adw3:hover h3 {
-  color: #e96656; }
-
-.adw4:hover .arrow_box {
-  background: #e7ac44; }
-
-.adw4:hover .arrow_box:after {
-  border-top-color: #e7ac44; }
-
-.adw4:hover h3 {
-  color: #e7ac44; }
 
 /**************************************why-we ********************************* */
 /****************************************************************************** */
